@@ -1,0 +1,27 @@
+.message {
+    margin: 10px;
+    width: fit-content;
+    border-radius: 15px 50px 30px;
+    font-family: Georgia, sans-serif;
+    border: 2px solid #73AD21;
+}
+
+.message_user {
+    /*padding: 10px;*/
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+    border-radius: 15px 50px 30px;
+    font-family: Georgia, sans-serif;
+    border: 2px solid black;
+    /*width: fit-content;*/
+}
+
+.message_user_card {
+    background-color: greenyellow !important;
+}
+
+.message_guest_card {
+    background-color: rgb(163, 159, 159)!important;
+    color: white;
+}

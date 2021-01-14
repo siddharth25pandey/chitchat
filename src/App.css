@@ -1,38 +1,48 @@
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: antiquewhite;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sid {
+    color: rebeccapurple;
+    font-size: 50px;
+    font-family: Georgia, sans-serif;
+    /*font-size: 5em;*/
+    letter-spacing: -2px;
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.siduser {
+    color: red;
+    font-size: 30px;
+    font-family: Georgia, sans-serif;
+    /*font-size: 5em;*/
+    letter-spacing: -2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.app-form {
+    padding: 20px;
+    position: fixed;
+    bottom: 40px;
+    z-index: 1;
+    background-color: #e9e9eb;
+    display: flex;
+    margin: 20px;
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-FormControl {
+    display: flex !important;
+    flex-direction: row !important;
 }
